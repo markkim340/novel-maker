@@ -1,6 +1,6 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
+# load_dotenv()
 
-load_dotenv()
 from langchain.chat_models import ChatOpenAI
 import streamlit as st
 
@@ -8,7 +8,6 @@ import streamlit as st
 # llm = OpenAI()
 # result = llm.predict("내가 좋아하는 동물은 ")
 # print(result)
-
 
 chat_model = ChatOpenAI()
 
